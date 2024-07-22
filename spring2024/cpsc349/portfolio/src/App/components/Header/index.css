@@ -1,0 +1,19 @@
+#header {
+    margin-bottom: 2rem;
+}
+
+h1#title {
+    margin-top: 17vh;
+    min-height: 10rem;
+    width: 100%;
+    pointer-events: none;
+    font-size: 8vw;
+    font-weight: 1200;
+}
+  
+@media (max-width: 768px) {
+  #home{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+}

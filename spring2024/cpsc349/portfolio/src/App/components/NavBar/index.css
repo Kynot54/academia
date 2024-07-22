@@ -1,0 +1,68 @@
+#home {
+    background-color: rgba(0,0,0);
+}
+
+.navbar-dark {
+    background-color: rgba(0,0,0,0.97);
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: rgba(200, 200, 200, 0.75);
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='%23cccccc' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>"); 
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(245, 245, 245, 0.75);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(215,215,215, 0.75);
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+
+ @media (min-width: 2560px) {
+    .link {
+        font-size: 200%;
+    }
+ }
+
+@media (min-width:1920px) and (max-width: 2559px) {
+     #responsive-navbar-nav {
+        font-size: 180%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .link {
+        padding-right: .5rem;
+    }
+ }
+
+ @media (min-width: 768px) and (max-width: 1919px) {
+     #responsive-navbar-nav {
+        font-size: 130%;
+    }
+ }
+
+@media (min-width: 375px) and  (max-width: 1024px) {
+    .navbar-collapse {
+        background-color: rgba(0,0,0,0.97);
+        transition: smooth;
+    }
+    .navbar-dark {
+        background-color: rgba(0,0,0,0.97);
+    }
+    .navbar-dark .navbar-toggler {
+        border-color: rgba(200, 200, 200, 0.75);
+    }
+    .navbar-dark .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='%23cccccc' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>"); 
+    }
+}

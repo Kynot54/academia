@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  text-align: center;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-overflow-style: none;
+  scrollbar-width: hidden;
+  background-image: linear-gradient(to bottom, rgba(0,0,04,1) 0%, rgba(0,0,09,0.99) 50%, rgba(0,0,14,0.98) 100%);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}

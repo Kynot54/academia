@@ -1,0 +1,56 @@
+[
+    {
+        "question": "Who is this anime character?",
+        "options": ["Lelouch", "Zoro", "Nines", "Zack"],
+        "answer": "Lelouch",
+        "image": "../images/quiz1/codegeass.png"
+    },
+    {
+        "question": "How about this character?",
+        "options": ["Sasuke", "Madara", "Itachi", "Minato"],
+        "answer": "Itachi",
+        "image": "../images/quiz1/naruto.jpeg"
+    },
+    {
+        "question": "What anime is this?",
+        "options": ["Mashle", "Bleach", "SonicX", "Onepiece"],
+        "answer": "Mashle",
+        "image": "../images/quiz1/mashle.jpeg"
+    },
+    {
+        "question": "What about this one?",
+        "options": ["JoJo Bizarre", "Baki", "Tokyo Ghoul", "Dead Man Wonderland"],
+        "answer": "Tokyo Ghoul",
+        "image": "../images/quiz1/ghoul.jpeg"
+    },
+    {
+        "question": "Who is the main character of this anime?",
+        "options": ["Eren", "Maka", "Baki", "Dwight"],
+        "answer": "Eren",
+        "image": "../images/quiz1/aot.jpeg"
+    },
+    {
+        "question": "What anime is this?",
+        "options": ["Dead Man Wonderland", "Tokyo Ghoul", "HunterXHunter", "SnopDogg"],
+        "answer": "Dead Man Wonderland",
+        "image": "../images/quiz1/dmwl.jpg"
+    },
+    {
+        "question": "What anime is this one?",
+        "options": ["Big Mechazord", "Gurren Lagann", "Together with United as One", "Hitman Wonder"],
+        "answer": "Gurren Lagann",
+        "image": "../images/quiz1/gurren.jpeg"
+    },    
+    {
+        "question": "What anime is this?",
+        "options": ["Sword Art Online", "Ready Player One", "From Me to You", "Fantasy RPG"],
+        "answer": "Sword Art Online",
+        "image": "../images/quiz1/sao.png"
+    },    
+    {
+        "question": "What anime is this?",
+        "options": ["Solo Leveling", "Scary Grin Man Show", "Dungeon Crawler", "Black Summoner"],
+        "answer": "Solo Leveling",
+        "image": "../images/quiz1/solo.jpeg"
+    }
+]

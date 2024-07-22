@@ -1,0 +1,45 @@
+[
+    {
+        "question": "What is the color of blood when it's inside your body?",
+        "options": ["Yellow","Blue","Red","White"],
+        "answer": "Red",
+        "image": "../images/quiz2/q1.jpg"
+    },
+    {
+        "question": "What is the fastest bird in the world",
+        "options": ["Bald Eagle","Peregine Falcon","Hummingbird","Raven"],
+        "answer": "Peregine Falcon",
+        "image": "../images/quiz2/q2.jpg"
+    },
+    {
+        "question": "What is the tallest waterfall in the world?",
+        "options": ["Angel Falls","Niagara Falls","Wailua Falls","Sutherland Falls"],
+        "answer": "Angel Falls",
+        "image": "../images/quiz2/q3.jpg"
+    },
+    {
+        "question": "Which of these animals has the ability to laugh?",
+        "options": ["Crocodile","Whale","Bear","Rat"],
+        "answer": "Rat",
+        "image": "../images/quiz2/q4.jpg"
+    },
+    {
+        "question": "Which of these foods will never spoil?  ",
+        "options": ["Honey","Beans","Cereal","Jerky"],
+        "answer": "Honey",
+        "image": "../images/quiz2/images.jpeg"
+    },
+    {
+        "question": "About how many scents can a human nose remember?",
+        "options": ["500","10,000","50,000","Angel Falls", "1 million"],
+        "answer": "50,000",
+        "image": "../images/quiz2/q7.jpg"
+    },
+    {
+        "question": "What is the capital city of Canada?",
+        "options": ["Toronto","Vancouver","Ottawa","Montreal"],
+        "answer": "Ottawa",
+        "image": "../images/quiz2/Canada-city-.jpg"
+    }   
+    
+]

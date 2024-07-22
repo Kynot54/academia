@@ -1,0 +1,17 @@
+{
+  "packages": [
+    "python@3.10",
+    "python310Packages.pip",
+    "nodejs@latest",
+    "pyright@latest",
+    "httpie@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      ". $VENV_DIR/bin/activate",
+      "export PATH=$PWD/node_modules/.bin:$PATH",
+      "pip install -r requirements.txt",
+      "npm install"
+    ]
+  }
+}

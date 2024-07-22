@@ -1,0 +1,56 @@
+Manhattan Distance:
+
+( 5 , 65 )
+( 4, 70  )
+__________
+
+  1 + 5 = 6
+
+( 5, 65, 2 ) 
+( 4, 70, -1 )
+____________
+
+  1  + 5 +  3 = 9
+
+
+SQRT(1^2 + 5^2) = SQRT(26)
+
+SQRT(1^2 + 5^2 + 3^2) = SQRT(35)
+
+Jaccard Similarity
+
+
+J(A,B) = |A Intersection B | / | A Union B |
+
+A = {Apple, Orange, Bannana}
+B = {Apple, Grape}
+
+J(A,B) = | 1 | / | 4 |
+
+
+__________________________________
+
+
+A = {Apple, Banana, Soymilk, Yogurt}
+B = {Apple, Peanuts, Yogurt}
+C = {Tomatoes, Potatoes, Yogurt}
+D = {Apple, Tomatoes, Potatoes}
+E = {Apple, Tomatoes}
+F = {Yogurt, Soymilk}
+
+
+J(A,B) = | 2 | / | 5 | = 2/5
+J(A,C) = | 1 | / | 6 | = 2/6
+J(A,D) = | 1 | / | 6 | = 1/6
+J(A,E) = | 1 | / | 5 | = 1/5
+J(A,F) = | 2 | / | 4 | = 2/4
+J(B,C) = | 1 | / | 5 | = 1/5
+J(B,D) = | 1 | / | 5 | = 1/5
+J(B,E) = | 1 | / | 4 | = 1/4
+J(B,F) = | 1 | / | 4 | = 1/4
+J(C,D) = | 2 | / | 4 | = 2/4
+J(C,E) = | 1 | / | 4 | = 1/4
+J(C,F) = | 1 | / | 4 | = 1/4
+J(D,E) = | 2 | / | 3 | = 2/3
+J(D,F) = | 0 | / | 5 | = 0
+J(E,F) = | 0 | / | 4 | = 0

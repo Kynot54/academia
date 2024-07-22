@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width", intial-scale="1">
+        <title>Quiz App</title>
+        <!--Bootstrap Import is Omitted Due to Using Webpack for Bundling-->
+    </head>
+    <body>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                <a class="navbar-brand active" href="index.html">Random Quiz App</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <a class="nav-link" href="quiz.html?quiz=quiz1">Anime Quiz</a>
+                    <a class="nav-link" href="quiz.html?quiz=quiz2">Programming Quiz</a>
+                    <a class="nav-link" href="quiz.html?quiz=quiz3">General Info</a>
+                    
+                    </div>
+                </div>
+                </div>
+          </nav>
+
+          <div id="carouselQuiz" class="carousel slide carousel carousel-fade">
+            <div class="carousel-inner">
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselQuiz" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselQuiz" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <div id="card-container" class="container overflow-hidden text-center">
+            <div id="quiz-cards" class="row row-cols-1 row-cols-md-2 g-4">
+            </div>
+          </div>
+        </div>
+    <body>        
+</html>

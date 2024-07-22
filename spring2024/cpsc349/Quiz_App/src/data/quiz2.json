@@ -1,0 +1,45 @@
+[
+    {
+        "question": "What code editor is this?",
+        "options": ["Zed","VsCode", "Sublime", "Eclipse"],
+        "answer": "VsCode",
+        "image": "../images/quiz3/q1.png"
+    },
+    {
+        "question": "Which coding language is used for web development",
+        "options": ["JScript","C++","Rust","R"],
+        "answer": "JScript",
+        "image": "../images/quiz3/q2.jpeg"
+    },
+    {
+        "question": "Which programming language is this?",
+        "options": ["Jscript","Python","Rust","GO"],
+        "answer": "Python",
+        "image": "../images/quiz3/q3.png"
+    },
+    {
+        "question": "What about this one?",
+        "options": ["Haskell","GO","C++","C#"],
+        "answer": "G0",
+        "image": "../images/quiz3/q4.png"
+    },
+    {
+        "question": "Which programming langauge looks like this?",
+        "options": ["Python","C++","HTML","English"],
+        "answer": "C++",
+        "image": "../images/quiz3/q5.jpg"
+    },
+    {
+        "question": "What major programs the most?",
+        "options": ["Art","Biology","Software Engineering","Chemistry"],
+        "answer": "Software Engineering",
+        "image": "../images/quiz3/college.jpeg"
+    },
+    {
+        "question": "Which is a way to declare a loop?",
+        "options": ["Make a loop","Loop()","for()","if()"],
+        "answer": "for()",
+        "image": "../images/quiz3/q2.jpeg"
+    }   
+    
+]
